@@ -1,0 +1,331 @@
+\documentclass[addpoints,12pt]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,esint}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+% \usepackage{charter}
+\usepackage{mathpazo}
+% \usepackage[inline]{enumitem}
+%\usepackage[bitstream-charter]{mathdesign}	% fonts in use
+
+\pagestyle{headandfoot}
+\runningheadrule
+%\firstpageheader{\footnotesize CS 314}{\footnotesize Page \thepage\ of 
+%\numpages}{\footnotesize January 28, 2015}
+%\firstpageheadrule
+\runningheader{\footnotesize Year 7 Mathematics}{\footnotesize Test 1, Page \thepage\ of 
+\numpages}{\footnotesize September 11, 2017}
+%\firstpagefooter{}{}{}
+%\runningfooter{}{}{}
+
+%\pointsinmargin		% print answers in the margin
+\printanswers		% print answers to questions
+
+\bracketedpoints
+\pointsinrightmargin
+% \qformat{Question \totalpoints\ points}
+    
+\begin{document}
+\begin{center}\centering
+    {\large DAYSPRING INTERNATIONAL ACADEMY}\\
+    Mathletics for Upper Secondary\\
+%     \textbf{Class Test}
+\end{center}
+
+\begin{center}
+  \fbox{\fbox{\parbox{6in}{
+  Read the questions \emph{carefully}. Answer the questions in the spaces 
+provided on the question sheets. If you run out of room for an answer, continue 
+on the back of the page. }}}
+\end{center}
+\vspace{0.3in}
+\makebox[\textwidth]{\textbf{Student's Name}:\enspace\hrulefill}
+\vspace*{0.2in}
+\makebox[\textwidth]{Instructor's Name: Nana Baah Akuffu\enspace\hfill}\\
+\textbf{Time Allowed: 10 minutes}
+
+\begin{questions}
+ \question If $y=\sqrt{x^2 + 4}$, then write $x$ in terms of $y$.
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align*}
+		  y &= \sqrt{x^2 + 4} \\
+		  y^2 &= x^2 +4 \\
+		  y^2 - 4 &= x^2 \\
+		  x &= \sqrt{y^2 - 4}
+		\end{align*}
+		\textbf{Answer: }\fbox{$x = \sqrt{y^2 - 4}$}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question The first term of a sequence is $2$. If the common difference is $-2$, find the 
+$n^{th}$ term for the sequence.
+	\ifprintanswers
+	  \begin{solution}\\
+		The first term $a$ is $2$, and common difference $d$ is $-2$. The $n^{th}$, $T_n$, is given 
+by
+		\begin{align*}
+		  T_n &= a + (n-1)d \\
+		  &= 2 + (n-1)\times(-2) \\
+		  &= 2 -2n +2 \\
+		  &= 4 - 2n
+		\end{align*}
+		\textbf{Answer: }\fbox{$4-2n$}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Simplify $$\frac{(x-1)x}{x^2}$$
+	\ifprintanswers
+	  \begin{solution}\\
+		We simply cancel out the like terms since they are dividing.
+		\begin{align}		  
+		  \frac{(x-1)x}{x^2} &= \frac{(x-1)\times x}{x\times x}, \\
+		  &= \frac{(x-1)}{x} \\
+		  &= 1 - \frac{1}{x}
+		\end{align}
+		\textbf{Answer: }\fbox{$1 - \dfrac{1}{x} \quad \text{or} \quad \dfrac{(x-1)}{x}$}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Ashley has a box containing $5$ pencils, $2$ pens and $8$ erasers. If $x$ represents 
+pencils, $y$ pens and $z$ erasers, write an expression for what is in the box.
+	\ifprintanswers
+	  \begin{solution}\\
+		$5x+2y+8z$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Factorize the expression $$3x^2-2x-5.$$
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align*}
+		  3x^2-2x-5 &= 3x^2-5x+3x-5 \\
+		  &= x(3x -5)+1(3x-5) \\
+		  &= (x+1)(3x-5)
+		\end{align*}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question The longest side of a right-angled triangle is $5cm$. If the other two sides 
+are the same, find their lengths.
+	\ifprintanswers
+	  \begin{solution}\\
+		The longest side is the hypotenuse. Let $x$ represent the other sides, then by using the 
+Pythagoras theorem.
+		\begin{align*}
+		  5^2 &= x^2 + x^2 \\
+		  25 &= 2x^2 \\
+		  x &= \sqrt{12.5}cm
+		\end{align*}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Solve the equation $$5x-100=5.$$ Leave your answer in a fraction in its lowest term.
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align*}
+		  5x-100 &= 5 \\
+		  5x &= 105 \\
+		  x &= 21.
+		\end{align*}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Simplify $$\frac{x+2}{(x-2)(x+2)}.$$
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align*}
+		  \frac{x+2}{(x-2)(x+2)} = \frac{1}{(x-2)}
+		\end{align*}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Factorize $t^2 - 9$.
+	\ifprintanswers
+	  \begin{solution}\\
+		$t^2 - 9=t^2 - 3^2=(t-3)(t+3)$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question A rectangle has length $x-1$ and width $x+2$. Write an expression for the area of the 
+rectangle.
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $l$ and $b$ be the length and breadth of the rectangle, then the area, $A$, will be
+		\begin{align*}
+		  A &= l \times b \\
+		  &= (x-1)(x+2) \\
+		  &= x^2 -2x-x-2 \\
+		  &= x^2 -3x -2.
+		\end{align*}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+ \question The value of $$\frac{n(n + 3)}{2} = \frac{3}{2}$$ when $n = 0$. True or False?
+	\ifprintanswers
+	  \begin{solution}\\
+		When $n=0$, $\dfrac{n(n + 3)}{2} = \dfrac{0\times (0+3)}{2} = \dfrac{0}{2} = 0$. So the 
+answer is \textbf{False}.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+ \question If $a$ and $b$ are negative numbers, and $a < b$, then $b - a$ is negative. True or 
+False?
+	\ifprintanswers
+	  \begin{solution}\\
+		 Let $b=-2$ and therefore $a$ can be $-3$ since $a<b$. So $b-a=-2-(-3)=-2+3=1>0$. Hence 
+$b-a$ is positive not negative. So the answer is \textbf{False}.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+	
+ \question Consider the fraction $\dfrac{p}{q}.$ If $p > q$ then the value of $\dfrac{p}{q} > 1.$ 
+True or False?
+	\ifprintanswers
+	  \begin{solution}\\
+		Since $p>q$, the fraction $\dfrac{p}{q}$ has the numerator bigger than the denominator and 
+so in any case $\dfrac{p}{q} > 1.$ The answer is \textbf{True}.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Expand and simplify $(x-1)(2-x)$.
+	\ifprintanswers
+	  \begin{solution}\\
+		We start by opening the brackets and grouping like terms.
+		\begin{align*}
+		  (x-1)(2-x) &= x(2-x)-1(2-x) \\
+		  &= 2x - x^2 -2 +x \\
+		  &= 3x - x^2 -2.
+		\end{align*}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question Solve the equation $x^2-2x -6=2$.
+	\ifprintanswers
+	  \begin{solution}\\
+		A quadratic equation is of the form $ax^2+bx+c=0$. The whole idea is make the equation 
+equal to $0$.
+		\begin{align*}
+		  x^2-2x -6 &= 2 \\
+		  x^2-2x -8 &= 0, \quad \text{solving by factorization, we have,} \\
+		  x^2+2x -4x -8 &= 0 \\
+		  x(x+2)-4(x+2) &= 0 \\
+		  (x-4)(x+2) &= 0 \\
+		\end{align*}
+		At this either $x-4 = 0$ $\Rightarrow$ $x=4$ or $x+2=0$ $\Rightarrow$ $x=-2$. 
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+ \question Solve $$\frac{y-1}{2}+\frac{y+1}{2}$$
+	\ifprintanswers
+	  \begin{solution}\\
+		Since the denominators are the same, 
+		$$\frac{y-1}{2}+\frac{y+1}{2}=\frac{y-1+y+1}{2}=\frac{2y}{2}=y$$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Find the value of $x$, if $$5^{2-x} = \dfrac{1}{125}$$
+	\ifprintanswers
+	  \begin{solution}\\
+		By the laws of indices, 
+		\begin{align*}
+		  5^{2-x} &= \dfrac{1}{125} \\
+		  5^{2-x} &= \dfrac{1}{5^3} \\
+		  5^{2-x} &= 5^{-3} \\
+		\end{align*}
+		Since the bases are the same, $2-x=-3$ $\Rightarrow$ $x=5$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question In a certain taxi ride, the cost is calculated by multiplying $\$6$ by the 
+distance traveled, in $km$, and then adding $\$3$. If Stephan paid $\$15$ for the entire ride, how 
+far did he go?
+	\ifprintanswers
+	  \begin{solution}\\
+		Stephan paid $\$15$ and so,
+		$$15-3=12. \quad 12 \div 6 = 2.$$
+		So Stephan rode for $2km$.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question A certain printer prints dots on one sheet of paper. The dots are in the form $n^2$. How 
+many dots will print on the $12^{th}$ paper?
+	\ifprintanswers
+	  \begin{solution}\\
+		The pattern on the sheet is of the form $n^2$ and so the $12^{th}$ paper will have $n=12$ 
+and so $12^2=144$.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+
+ \question \emph{Challenge Problem.} A two digit integer is divisible by $5$ but not by $10$. If 
+the digits are reversed, the number is $18$ more then the original one. What is the integer?
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $x$ be the first digit and $y$ the second digit. Using the place value form, the number 
+can be represented algebraically as $10x+y$. The number reversed is $10y+x$. Now since the number 
+is divisible only by $5$ and not $10$ then it means the last digit is $5$. Hence, $$y=5.$$ 
+Mathematically the next statement of the question means;
+		\begin{align*}
+		 10y+x &= 10x+y + 18, \\
+		 9y -9x &= 18 \quad \text{dividing through by $9$ gives,}\\
+		 y - x &= 2.
+		\end{align*}
+Since $y=5$, we have $5-x=2$ and so $x=3$. Hence the number $10x+y=10(3)+5 = 35$. Indeed, 
+$53=35+18$.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+\end{questions}
+\vspace*{1cm}
+%\centering\gradetable[h][questions]
+
+\end{document}

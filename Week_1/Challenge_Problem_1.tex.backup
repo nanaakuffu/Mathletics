@@ -1,0 +1,247 @@
+\documentclass[addpoints,12pt]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,esint}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{charter}
+\usepackage{mathpazo}
+% \usepackage[inline]{enumitem}
+%\usepackage[bitstream-charter]{mathdesign}	% fonts in use
+
+\pagestyle{headandfoot}
+\runningheadrule
+%\firstpageheader{\footnotesize CS 314}{\footnotesize Page \thepage\ of 
+%\numpages}{\footnotesize January 28, 2015}
+%\firstpageheadrule
+\runningheader{\footnotesize Year 7 Mathematics}{\footnotesize Test 1, Page \thepage\ of 
+\numpages}{\footnotesize September 11, 2017}
+%\firstpagefooter{}{}{}
+%\runningfooter{}{}{}
+
+%\pointsinmargin		% print answers in the margin
+\printanswers		% print answers to questions
+
+\bracketedpoints
+\pointsinrightmargin
+% \qformat{Question \totalpoints\ points}
+    
+\begin{document}
+\begin{center}\centering
+    {\large DAYSPRING INTERNATIONAL ACADEMY}\\
+    Mathletics for Lower Secondary\\
+%     \textbf{Class Test}
+\end{center}
+
+\begin{center}
+  \fbox{\fbox{\parbox{6in}{
+  Read the questions \emph{carefully}. Answer the questions in the spaces 
+provided on the question sheets. If you run out of room for an answer, continue 
+on the back of the page. }}}
+\end{center}
+\vspace{0.3in}
+\makebox[\textwidth]{\textbf{Student's Name}:\enspace\hrulefill}
+\vspace*{0.2in}
+\makebox[\textwidth]{Instructor's Name: Nana Baah Akuffu\enspace\hfill}\\
+\textbf{Time Allowed: 10 minutes}
+
+\begin{questions}
+ \question $144$ is a square number. True/False
+	\ifprintanswers
+	  \begin{solution}\\
+		True
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Estimate the value of $\sqrt{88}$
+	\ifprintanswers
+	  \begin{solution}\\
+		$\sqrt{88}$ is between $9^2$ and $10^2$. Hence any value between $9$ and $10$ is good
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question Find the value of $\sqrt{1^2+2^2+3^2+4^2}$.
+	\ifprintanswers
+	  \begin{solution}\\
+		$1^2+2^2+3^2+4^2= 1+4+9+16=30$. Hence the answer is $\sqrt{30}$.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question What are the factors of $108$?
+	\ifprintanswers
+	  \begin{solution}\\
+		Factors of $108=\{1, 2, 3, 4, 6, 9, 12, 18, 27, 36, 54, 108\}$ 
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ \question What are the prime factors of $99$?
+	\ifprintanswers
+	  \begin{solution}\\
+		$99=3\times3\times9$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question Is $6786$ divisible by $9$?
+	\ifprintanswers
+	  \begin{solution}\\
+		Yes
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question What are the square numbers that add up to $125$?
+	\ifprintanswers
+	  \begin{solution}\\
+		They are either; 
+		\begin{enumerate}
+		 \item $9 + 100 + 16$ or
+		 \item $25 + 64 + 36$
+		\end{enumerate}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question What is the $20^{th}$ square number?
+	\ifprintanswers
+	  \begin{solution}\\
+		$400$ because $20\times20=400$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question Calculate $$\frac{2.2+7.8}{1.5-0.5}$$
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align}
+		  \frac{2.2+7.8}{1.5-0.5} &= \frac{10}{1} = 10
+		\end{align}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question What fraction is equivalent to $0.035$?
+	\ifprintanswers
+	  \begin{solution}\\
+		$\frac{35}{1000}$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ \question There were $56$ students in Mr. K's class, $29$ students in Mr. P's class, and $43$ 
+students in Mr. S's class. Approximately how many students were there in all three classes?
+	\ifprintanswers
+	  \begin{solution}\\
+		There were $128$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ \question What is the Highest Common Factor of 36 and 54?
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align}
+		  36 &= 2\times2\times3\times3 \\
+		  54 &= 2\times3\times3\times3 \\
+		  \text{HCF} &= 2\times3\times3 = 18
+		\end{align}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question If $5^n = 0.2$, what is the value of $n$?
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{align}
+		  5^n &= 0.2 \\
+		  5^n &= \frac{1}{5} \\
+		  5^n &= 5^{-1} \\
+		  n &= -1 \quad \text{Since the bases are the same.}
+		\end{align}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question What integer is closest to $\sqrt{250}$?
+	\ifprintanswers
+	  \begin{solution}\\
+		$16$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question What are the values of each of the following?
+	\begin{enumerate}
+	 \item $-3+4+5$
+	 \item $-20+19-19$
+	 \item $6-7-3+3$
+	 \item $-6+1+5$
+	 \item $-3--2+-3$
+	\end{enumerate}
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{enumerate}
+		 \item $6$
+		 \item $-20$
+		 \item $-1$
+		 \item $0$
+		 \item $-4$
+		\end{enumerate}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ \question One Saturday, an electronics store gave away free mini-ipods to any customer who 
+purchased merchandise totalling over \$$1,000$. If there were a total of $26$ purchases totalling 
+over \$$1,000$ each that Saturday, what is the integer that represents the change in number of free 
+mini-ipods the store had in stock at the end of the day Saturday?
+	\ifprintanswers
+	  \begin{solution}\\
+		$-26$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question \emph{Challenge Problem.} Anna was planning how to seat guests at a dinner. There 
+were between $50$ and $100$ people coming. Anna noticed that they could be seated with $8$ people 
+to a table and no seats left empty. She also noticed that they could be seated with $12$ people to 
+a table with no seats left empty. What is the highest possible number of guests coming?
+	\ifprintanswers
+	  \begin{solution}\\
+		This is a problem of LCM. Hence the prime factors of the numbers are
+		\begin{align}
+		  8 &= 2\times2\times2 \\
+		  12 &= 2\times2\times3 \\
+		  \text{LCM} &= 2\times2\times2\times3 = 24
+		\end{align}
+	Now if the number of guests is between $50$ and $100$, then their number will be a multiple of 
+$24$. $24\times4=96$ which is between $50$ and $100$.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+\end{questions}
+\vspace*{1cm}
+%\centering\gradetable[h][questions]
+
+\end{document}

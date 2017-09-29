@@ -1,0 +1,320 @@
+\documentclass[addpoints,12pt]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,esint}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{charter}
+\usepackage{mathpazo}
+% \usepackage[inline]{enumitem}
+%\usepackage[bitstream-charter]{mathdesign}	% fonts in use
+
+\pagestyle{headandfoot}
+\runningheadrule
+%\firstpageheader{\footnotesize CS 314}{\footnotesize Page \thepage\ of 
+%\numpages}{\footnotesize January 28, 2015}
+%\firstpageheadrule
+\runningheader{\footnotesize Year 7 Mathematics}{\footnotesize Test 1, Page \thepage\ of 
+\numpages}{\footnotesize September 11, 2017}
+%\firstpagefooter{}{}{}
+%\runningfooter{}{}{}
+
+%\pointsinmargin		% print answers in the margin
+\printanswers		% print answers to questions
+
+\bracketedpoints
+\pointsinrightmargin
+% \qformat{Question \totalpoints\ points}
+    
+\begin{document}
+\begin{center}\centering
+    {\large DAYSPRING INTERNATIONAL ACADEMY}\\
+    Mathletics for Upper Secondary\\
+%     \textbf{Class Test}
+\end{center}
+
+\begin{center}
+  \fbox{\fbox{\parbox{6in}{
+  Read the questions \emph{carefully}. Answer the questions in the spaces 
+provided on the question sheets. If you run out of room for an answer, continue 
+on the back of the page. }}}
+\end{center}
+\vspace{0.3in}
+\makebox[\textwidth]{\textbf{Student's Name}:\enspace\hrulefill}
+\vspace*{0.2in}
+\makebox[\textwidth]{Instructor's Name: Nana Baah Akuffu\enspace\hfill}\\
+\textbf{Time Allowed: 10 minutes}
+
+\begin{questions}
+ \question If two angles form a linear pair and one is $52^\circ$, what is the other angle?
+	\ifprintanswers
+	  \begin{solution}\\
+		If the angles are linear pair, then they add up to $180^\circ$. Hence let the $x$ be the 
+size of the other angle. 
+		\begin{align}
+		 x + 52^\circ &= 180^\circ \\
+		 x &= 180^\circ - 52^\circ \\
+		 x &= 122^\circ
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question What is the name of the triangle with no equal sides?
+	\ifprintanswers
+	  \begin{solution}\\
+		Scalene Triangle
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question A regular polygon of 12 sides has an exterior angle of?
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $e$ be the interior angle of the polygon. Then
+		\begin{align}		  
+		  e &= \frac{360^\circ}{n} \\
+		  e &= \frac{360^\circ}{12^\circ} \\
+		  e &= 30^\circ
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question What is the supplement of $60^\circ$?
+	\ifprintanswers
+	  \begin{solution}\\
+		Supplementary angles add up to $180^\circ$. Let $x$ be the angle, then
+		\begin{align}
+		  x + 60^\circ &= 180^\circ \\
+		  x &= 180^\circ-60^\circ \\
+		  x &= 120^\circ
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question In a right--angled triangle, the acute angles are congruent. What is the measure of 
+each angle?
+	\ifprintanswers
+	  \begin{solution}\\
+		$45^\circ$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Find the the number of sides of a regular polygon if the sum of interior angles is 
+$540^\circ$?
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $n$ be the number of sides. Then 
+		\begin{align} 
+		  (n-2)180 &= 540 \\
+		  180n - 360 &= 540 \\
+		  180n &= 540 + 360 \\
+		  180n &= 900 \\
+		  n &= \frac{900}{180} \\
+		  n &= 5
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question When a line cuts two parallel lines, it produces some pairs of congruent angles. Names 
+these angles.
+	\ifprintanswers
+	  \begin{solution}\\
+		\begin{enumerate}
+		 \item Z angles or alternating angles
+		 \item Vertically opposite angles
+		 \item Corresponding angles
+		\end{enumerate}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question Find the perimeter in $cm$ of a rectangle whose length is $176mm$ and width 
+$184mm$.
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $l$ be the length and $b$ be the breadth. Now $176mm$ is the same as $17.6cm$ and 
+$184mm$ will be $18.4cm$. Hence, the perimeter, $P$ of the rectangle will be
+		\begin{align}
+		  P &= 2(l + b) \\
+		  P &= 2(17.6 + 18.4) \\
+		  P &= 2( 36.0) = 72cm
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+	
+ \question If two angles form a linear pair and one is $52^\circ$, what is the other angle?
+	\ifprintanswers
+	  \begin{solution}\\
+		If the angles form a linear pair, then they add up to $180^\circ$. Let $x$ be the angle, 
+then,
+		\begin{align}
+		  x + 52^\circ &= 180^\circ \\
+		  x &= 180^\circ-52^\circ \\
+		x &= 128^\circ
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question An angle is 8 more than its complement. Find the angle.
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $x$ be the angle and $y$ the other complement. From the question $x=y+8$ and since 
+complementary angles add up to $90^\circ$ we can have
+		\begin{align}
+		  x + y &= 90^\circ \\
+		  y+8 +y &= 90^\circ \\
+		  2y &= 82^\circ \\
+		  y &= 41^\circ
+		\end{align}
+		Hence $x = y+8 = 49^\circ$
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+ \question Each side of a marble tile is $16cm$ long. How many tiles are needed to cover an 
+area of $5120cm^2$?
+	\ifprintanswers
+	  \begin{solution}\\
+		The area of one marble tile will be $256cm^2$. Hence if the area of the total space is 
+$5120cm^2$, then we will need $\frac{5120}{256}=20$ marble tiles.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+ \question Find the halfway point between the points $A(1,-2)$ and $B(-3, -5)$.
+	\ifprintanswers
+	  \begin{solution}\\
+		 The midpoint if $AB$ is given by
+		 \begin{align}
+			\text{Midpoint} &= \left(\frac{1-3}{2}, \frac{-5-3}{2} \right) \\
+			  &= \left(\frac{-2}{2}, \frac{-7}{2} \right) \\
+			  &= \left(-1, \frac{-7}{2}
+		 \end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+	
+ \question Name any 3 quadrilaterals which has at least one congruent sides.
+	\ifprintanswers
+	  \begin{solution}\\
+		Any 3 of these;
+		\begin{enumerate}
+		 \item Kite
+		 \item Parallelogram
+		 \item Square
+		 \item Rhombus
+		 \item Rectangle
+		\end{enumerate}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question A three sided regular polygon is?
+	\ifprintanswers
+	  \begin{solution}\\
+		An Equilateral Triangle
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+ 
+ \question Describe a Right--angled triangle.
+	\ifprintanswers
+	  \begin{solution}\\
+		This is a triangle which has one of its angles to be $90^\circ$.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+ \question Find the distance between the origin and the points $(4,5)$.
+	\ifprintanswers
+	  \begin{solution}\\
+		Let $d$ be the distance, then 
+		\begin{align}
+		  d &= \sqrt{(4-0)^2 + (5-0)^2} \\
+		  d &= \sqrt{16 + 25} \\
+		  d &= \sqrt{41}.
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question A line $l_1$ is defined by the equation $2x+y=1$. If $l_2$ is parallel to $l_1$, find 
+the equation of the line $l_2$ if it passes through the origin.
+	\ifprintanswers
+	  \begin{solution}\\
+		Since $l_2$ is parallel to $l_1$, then the gradient of $l_2$ is $-2$. Hence if $l_2$ passes 
+through the origin, then 
+		\begin{align}
+		  \frac{y-0}{x-0} &= -2 \\
+		  y &= -2x.
+		\end{align}
+
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question What is the difference between a prism and a pyramid?
+	\ifprintanswers
+	  \begin{solution}\\
+		A pyramid has a vertex whilst a prism does not.
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+	
+ \question What do we call a parallelogram with 4 equal sides and 4 right angles?
+	\ifprintanswers
+	  \begin{solution}\\
+		A \textbf{square}
+	  \end{solution}
+	\else
+	  \makeemptybox{1.33in}
+	\fi
+
+
+ \question \emph{Challenge Problem.} Two sides of a triangle have lengths $6cm$ and $8cm$. Find 
+an interval for the third side.
+\end{questions}
+\vspace*{1cm}
+%\centering\gradetable[h][questions]
+
+\end{document}

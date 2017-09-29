@@ -1,0 +1,77 @@
+\documentclass[addpoints,12pt]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,esint}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{charter}
+\usepackage{mathpazo}
+% \usepackage[inline]{enumitem}
+%\usepackage[bitstream-charter]{mathdesign}	% fonts in use
+
+\pagestyle{headandfoot}
+\runningheadrule
+%\firstpageheader{\footnotesize CS 314}{\footnotesize Page \thepage\ of 
+%\numpages}{\footnotesize January 28, 2015}
+%\firstpageheadrule
+\runningheader{\footnotesize Year 7 Mathematics}{\footnotesize Test 1, Page \thepage\ of 
+\numpages}{\footnotesize September 11, 2017}
+%\firstpagefooter{}{}{}
+%\runningfooter{}{}{}
+
+%\pointsinmargin		% print answers in the margin
+\printanswers		% print answers to questions
+
+\bracketedpoints
+\pointsinrightmargin
+% \qformat{Question \totalpoints\ points}
+    
+\begin{document}
+\begin{center}\centering
+    {\large DAYSPRING INTERNATIONAL ACADEMY}\\
+    Mathletics for Lower Secondary\\
+%     \textbf{Class Test}
+\end{center}
+
+\begin{center}
+  \fbox{\fbox{\parbox{6in}{
+  Read this question \emph{carefully}. You have 7 minutes to answer write your solution on this 
+paper as well solution on the board provided.}}}
+\end{center}
+\vspace{0.3in}
+\makebox[\textwidth]{\textbf{Group's Name}:\enspace\hrulefill}
+\vspace*{0.2in}
+\makebox[\textwidth]{Quiz Master's Name: Mr. Charles Fiende\enspace\hfill}\\
+\textbf{Time Allowed: 7 minutes}
+
+\begin{questions}
+  
+ \question \emph{Challenge Problem.} Anna was planning how to seat guests at a dinner. There 
+were between $50$ and $100$ people coming. Anna noticed that they could be seated with $8$ people 
+to a table and no seats left empty. She also noticed that they could be seated with $12$ people to 
+a table with no seats left empty. What is the highest possible number of guests coming?
+	\ifprintanswers
+	  \begin{solution}\\
+		This is a problem of LCM. Hence the prime factors of the numbers are
+		\begin{align*}
+		  8 &= 2\times2\times2 \\
+		  12 &= 2\times2\times3 \\
+		  \text{LCM} &= 2\times2\times2\times3 = 24
+		\end{align*}
+	Now if the number of guests coming is between $50$ and $100$, then their number will be a 
+multiple of $24$. $24\times4=96$ which is between $50$ and $100$.
+	  \end{solution}
+	\else
+	  \makeemptybox{5.3in}
+	\fi
+	
+  
+\end{questions}
+% \vspace*{1cm}
+%\centering\gradetable[h][questions]
+
+\end{document}
